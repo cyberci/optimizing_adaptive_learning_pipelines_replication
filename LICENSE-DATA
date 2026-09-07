@@ -1,0 +1,27 @@
+Licence for the non-software content of this package
+=====================================================
+
+The code in this repository is licensed under the MIT License; see LICENSE.
+
+The following directories contain data, measurement output and documentation
+rather than software, and are licensed instead under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0):
+
+    data/           the task-descriptor catalogue and the trained model artefacts
+    results/        the measurement output in JSON
+    figures/output/ the rendered figures
+    docs/           the documentation
+
+Copyright (c) 2026 Bertalan Forstner
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate whether changes were made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Attribution
+-----------
+Please cite the accompanying article and this archive; CITATION.cff gives the
+machine-readable form.

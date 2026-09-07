@@ -1,0 +1,32 @@
+{
+  "title": "Replication package for \"Latency optimization and oracle-based failure diagnosis in interactive adaptive learning pipelines\"",
+  "description": "<p>Reference implementation, benchmark harness and complete measurement scripts for an oracle-localised measurement study of the recommendation critical path of Coglica, a research platform for game-based cognitive assessment.</p><p>The package reproduces every table and figure in the accompanying article: the oracle substitution that localises the lost value to the predictor rather than to the architecture; the sweep of the two interacting configuration choices inside the predictor; the latency decomposition and the cost model fitted under four serving runtimes; the closed-form enumeration/search crossover and its validation; the comparison of search strategies including stronger model-based baselines; the concurrency sweep against the synchronous and asynchronous deadlines; and the degradation chain measured in a domain metric rather than as an availability rate.</p><p>No human-subject data are used. Every domain-metric result is a simulation against a reconstructed response model; see README.md for the reconstruction's fidelity checks and limitations.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Forstner, Bertalan",
+      "affiliation": "Budapest University of Technology and Economics",
+      "orcid": "0009-0003-6669-2660"
+    }
+  ],
+  "keywords": [
+    "adaptive learning",
+    "machine learning systems engineering",
+    "inference latency",
+    "graceful degradation",
+    "oracle analysis",
+    "declarative configuration",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/cyberci/optimizing_adaptive_learning_pipelines_replication",
+      "resource_type": "software"
+    }
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+title: >-
+  Replication package for "Latency optimization and oracle-based failure
+  diagnosis in interactive adaptive learning pipelines"
+message: >-
+  If you use this software or its results, please cite both the accompanying
+  article and this archive.
+type: software
+authors:
+  - given-names: Bertalan
+    family-names: Forstner
+    email: bertalan.forstner@aut.bme.hu
+    affiliation: >-
+      Department of Automation and Applied Informatics, Faculty of Electrical
+      Engineering and Informatics, Budapest University of Technology and
+      Economics
+    orcid: 'https://orcid.org/0009-0003-6669-2660'
+abstract: >-
+  Reference implementation, benchmark harness and complete measurement scripts
+  for an oracle-localised measurement study of the recommendation critical path
+  of Coglica, a research platform for game-based cognitive assessment. The
+  package reproduces every table and figure in the article: the oracle
+  substitution that localises the lost value to the predictor, the sweep of the
+  two interacting configuration choices inside it, the latency decomposition and
+  the four-runtime cost model, the closed-form enumeration/search crossover, the
+  search-strategy comparison, the concurrency sweep and the degradation chain
+  measured in the domain metric.
+keywords:
+  - adaptive learning
+  - machine learning systems engineering
+  - inference latency
+  - graceful degradation
+  - oracle analysis
+  - declarative configuration
+  - reproducibility
+license: MIT
+license-url: 'https://opensource.org/licenses/MIT'
+repository-code: 'https://github.com/cyberci/optimizing_adaptive_learning_pipelines_replication'
+doi: '10.5281/zenodo.22646919'
+version: 1.0.0
+date-released: '2026-08-25'
+references:
+  - type: article
+    title: >-
+      Latency optimization and oracle-based failure diagnosis in interactive
+      adaptive learning pipelines
+    authors:
+      - given-names: Bertalan
+        family-names: Forstner
+    year: 2026
+    status: submitted

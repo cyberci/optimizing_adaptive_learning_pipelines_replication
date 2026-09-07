@@ -1,0 +1,23 @@
+[
+  {
+    "label": "catalogued integer grid",
+    "grid": 80,
+    "oracle_flow_band": 0.9419375,
+    "mean_abs_dev": 0.03758551221715781,
+    "noise_free_gap": 0.016575950996251684
+  },
+  {
+    "label": "2x refinement",
+    "grid": 527,
+    "oracle_flow_band": 0.9436249999999999,
+    "mean_abs_dev": 0.037634084255169925,
+    "noise_free_gap": 0.013696567070032617
+  },
+  {
+    "label": "10x refinement",
+    "grid": 12231,
+    "oracle_flow_band": 0.9434999999999999,
+    "mean_abs_dev": 0.037484580656956076,
+    "noise_free_gap": 0.013193275967852953
+  }
+]
