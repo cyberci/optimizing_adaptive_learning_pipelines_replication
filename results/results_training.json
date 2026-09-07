@@ -1,0 +1,14 @@
+{
+  "A_as_deployed": {
+    "MAE_vs_true_p": 0.2075,
+    "Brier_vs_outcome": 0.0824,
+    "ECE": 0.0698,
+    "mean_pred_where_true_p_is_0.7": 0.9428
+  },
+  "B_corrected": {
+    "MAE_vs_true_p": 0.038,
+    "Brier_vs_outcome": 0.1134,
+    "ECE": 0.2523,
+    "mean_pred_where_true_p_is_0.7": 0.6971
+  }
+}

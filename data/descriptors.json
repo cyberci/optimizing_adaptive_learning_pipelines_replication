@@ -1,0 +1,32 @@
+[
+  {
+    "game_id": 5,
+    "name": "Urninja (fruit-slice)",
+    "n_params": 8,
+    "grid": 2457000
+  },
+  {
+    "game_id": 6,
+    "name": "Urforditas (lexical decision)",
+    "n_params": 5,
+    "grid": 21000
+  },
+  {
+    "game_id": 7,
+    "name": "Urlenykihallgatas (auditory LD)",
+    "n_params": 5,
+    "grid": 42000
+  },
+  {
+    "game_id": 8,
+    "name": "Logikai sorozat (sequence)",
+    "n_params": 6,
+    "grid": 28512
+  },
+  {
+    "game_id": 9,
+    "name": "Ritmustartas (rhythm)",
+    "n_params": 1,
+    "grid": 21
+  }
+]

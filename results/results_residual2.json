@@ -1,0 +1,61 @@
+{
+  "B_corrected": {
+    "intercept": -0.7419825934274313,
+    "rows": [
+      {
+        "name": "abilities network alone",
+        "mae": 0.03147075760746576,
+        "bias": 0.01084237264253717,
+        "flow_band": 0.935
+      },
+      {
+        "name": "games network alone",
+        "mae": 0.2946543807331371,
+        "bias": 0.2931392808416258,
+        "flow_band": 0.025
+      },
+      {
+        "name": "ensemble",
+        "mae": 0.1537930487309981,
+        "bias": 0.1519908267420815,
+        "flow_band": 0.2125
+      },
+      {
+        "name": "ensemble + logit intercept (-0.742)",
+        "mae": 0.057695283472833536,
+        "bias": -0.002360764534460488,
+        "flow_band": 0.8325
+      }
+    ]
+  },
+  "A_as_deployed": {
+    "intercept": -2.2825088202073984,
+    "rows": [
+      {
+        "name": "abilities network alone",
+        "mae": 0.20715220507869514,
+        "bias": 0.07005107402625012,
+        "flow_band": 0.135
+      },
+      {
+        "name": "games network alone",
+        "mae": 0.4396665199903183,
+        "bias": 0.43966592522052633,
+        "flow_band": 0.0025
+      },
+      {
+        "name": "ensemble",
+        "mae": 0.25580846778746474,
+        "bias": 0.25485849962338825,
+        "flow_band": 0.0275
+      },
+      {
+        "name": "ensemble + logit intercept (-2.283)",
+        "mae": 0.16763281582804096,
+        "bias": -0.03133195040453515,
+        "flow_band": 0.5625
+      }
+    ]
+  },
+  "oracle_flow_band": 0.9625
+}

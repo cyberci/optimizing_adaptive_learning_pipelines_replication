@@ -1,0 +1,19 @@
+# Exactly the versions present when the reported measurements were taken.
+# Later versions reproduce the qualitative results but not the absolute
+# timings, which are runtime-dependent by the article's own argument.
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.9
+tensorflow-cpu==2.21.0
+optuna==4.9.0
+
+# the two alternative serving runtimes of the cost model (bench_runtimes.py)
+onnx==1.22.0
+onnxruntime==1.25.0
+
+# only needed for the HTTP cross-check (src/service.py + experiments/loadtest.py)
+fastapi==0.141.1
+uvicorn==0.46.0
+httpx==0.28.1
